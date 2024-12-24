@@ -4,6 +4,7 @@
   gap: 2rem;
   &__title{
     @include m-h-4();
+    color: $text-subtitle2;
   }
   &__button{
     @extend .buttonAction;

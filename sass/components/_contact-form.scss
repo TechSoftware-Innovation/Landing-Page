@@ -46,6 +46,7 @@
   }
   &__subtitle {
     display: none;
+    color: $text-white;
     @include respond-to('medium'){
       display: flex;
       @include m-h-4();

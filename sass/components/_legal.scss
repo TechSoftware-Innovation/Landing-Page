@@ -2,6 +2,7 @@
   @extend .useful-links;
   &__title{
     @include m-h-4();
+    color: $text-subtitle2;
   }
   &__links{
     @extend .useful-links;

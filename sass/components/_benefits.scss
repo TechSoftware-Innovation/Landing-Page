@@ -12,7 +12,7 @@
   &__header{
     @extend .know-more__header;
     @include respond-to('medium'){
-      text-align: center
+      text-align: center;
     }
   }
   &__title{
@@ -33,51 +33,103 @@
   }
   &__card{
     width: 100%;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @include respond-to('small'){
+    text-align: center;
+    gap: 1.5rem;
+    background-color: $secondary-color;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+    transition: transform 300ms ease, box-shadow 300ms ease, background-color 300ms ease;
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.7);
+      background-color: rgba(34, 34, 34, 0.9);
+    }
+
+    @include respond-to('small') {
       width: fit-content;
       display: grid;
       grid-template-columns: auto 1fr;
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
       grid-template-areas:
-              'image title'
-              'image description';
+        'image title'
+        'image description';
       gap: 0;
     }
-    @include respond-to('medium'){
+
+    @include respond-to('medium') {
       display: flex;
+      gap: 1.5rem;
     }
-    text-align: center;
-    gap: 1.2rem;
-    background-color: $secondary-color;
-    border-radius: 1rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(212, 175, 55, 0.3), transparent);
+      transform: skewX(-15deg);
+      transition: left 400ms ease;
+      z-index: 0;
+    }
+
+    &:hover::before {
+      left: 100%;
+    }
   }
-  &__card-img{
+
+  &__card-img {
     width: 50%;
     max-width: 12rem;
     grid-area: image;
     justify-self: center;
+    z-index: 2;
+    transition: transform 300ms ease;
+
+    .our-benefits__card:hover & {
+      transform: scale(1.1);
+    }
   }
-  &__card-title{
+
+  &__card-title {
     @include m-h-5();
-    color: $text-black;
+    color: $text-white;
     grid-area: title;
     justify-self: start;
+    z-index: 2;
+    transition: color 300ms ease;
+
+    .our-benefits__card:hover & {
+      color: $tertiary-color;
+    }
   }
-  &__card-info{
+
+  &__card-info {
     @include m-body-2();
     color: $text-gray;
     grid-area: description;
     justify-self: start;
-    @include respond-to('small'){
+    z-index: 2;
+
+    @include respond-to('small') {
       text-align: start;
     }
-    @include respond-to('medium'){
+
+    @include respond-to('medium') {
       text-align: center;
+    }
+
+    .our-benefits__card:hover & {
+      color: $text-white;
     }
   }
 }
