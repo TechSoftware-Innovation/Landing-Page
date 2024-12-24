@@ -37,7 +37,7 @@ export function onFormSend(){
             });
 
             if (response.ok) {
-                alert('Los datos se agregaron correctamente a Airtable.');
+                alert('La consulta se ha enviado exitosamente.');
             } else {
                 const errorData = await response.json();
                 console.error('An error has ocurred while trying to append data to worksheet:', errorData);
