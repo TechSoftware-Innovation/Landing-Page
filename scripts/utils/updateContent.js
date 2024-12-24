@@ -77,8 +77,8 @@ export function updateContent() {
     benefit2Subtitle.innerHTML = i18next.t("benefit2Subtitle");
     benefit3Title.innerHTML = i18next.t("benefit3Title");
     benefit3Subtitle.innerHTML = i18next.t("benefit3Subtitle");
-    benefit4Title.innerHTML = i18next.t("benefit3Title");
-    benefit4Subtitle.innerHTML = i18next.t("benefit3Subtitle");
+    benefit4Title.innerHTML = i18next.t("benefit4Title");
+    benefit4Subtitle.innerHTML = i18next.t("benefit4Subtitle");
     testimonialTitle.innerHTML = i18next.t("testimonialTitle");
     testimonialSubtitle.innerHTML = i18next.t("testimonialSubtitle");
     aboutUsTitle.innerHTML = i18next.t("aboutUsTitle");
