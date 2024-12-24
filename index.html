@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://apis.google.com/js/api.js"></script>
+
   </head>
   <body>
     <header class="header"  id="home">
@@ -150,29 +152,35 @@
             </div>
             <h3 class="contact-form__subtitle"></h3>
           </div>
-          <form class="contact-form__form" action="">
+          <form id="consultant-form" class="contact-form__form" action="">
             <label class="contact-form__label" for="name">
               <span></span>
-              <input class="contact-form__input" id="name" type="text" required>
+              <input class="contact-form__input" id="name" name="name" type="text" required>
             </label>
             <label class="contact-form__label" for="email">
               <span></span>
-              <input class="contact-form__input" id="email" type="email" required>
+              <input class="contact-form__input" id="email" name="email" type="email" required>
             </label>
             <label class="contact-form__label" for="phone">
               <span></span>
-              <input class="contact-form__input" id="phone" type="number" min="900000000" max="999999999" required>
+              <input class="contact-form__input" id="phone" name="phone" type="number" min="900000000" max="999999999" required>
             </label>
             <label class="contact-form__label" for="message">
               <span></span>
-              <textarea class="contact-form_input contact-form_input--large" id="message" type="text"></textarea>
+              <textarea class="contact-form_input contact-form_input--large" id="message" name="message" type="text"></textarea>
             </label>
+<<<<<<< HEAD
             <input class="contact-form__button" type="submit" value="CONTÁCTANOS"/>
           </form>
+=======
+            <input id="submit-btn" class="contact-form__button" type="submit" value="CONTÁCTANOS">
+        </form>
+        
+>>>>>>> 06acd4a (feat: added submit form logic)
         </div>
       </section>
     </main>
-    <footer  class="footer">
+    <footer   class="footer">
       <section class="footer__content">
         <div class="social-media">
           <h3  class="social-media__title"></h3>

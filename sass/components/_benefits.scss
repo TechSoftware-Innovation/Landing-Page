@@ -123,6 +123,7 @@
     @include respond-to('small') {
       text-align: start;
     }
+<<<<<<< HEAD
 
     @include respond-to('medium') {
       text-align: center;
@@ -131,5 +132,7 @@
     .our-benefits__card:hover & {
       color: $text-white;
     }
+=======
+>>>>>>> 06acd4a (feat: added submit form logic)
   }
 }
