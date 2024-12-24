@@ -1,17 +1,33 @@
 //Expressions
-$primary-color: rgba(31, 41, 55, 1);
-$secondary-color: rgba(255, 255, 255, 1);
-$tertiary-color: rgb(0, 100, 156);
-$primary-button-color: rgba(22, 28, 45, 1);
-$text-subtitle: rgba(1, 145, 226, 1);
+$primary-color: rgba(0, 0, 0, 1);
+$secondary-color: rgba(34, 34, 34, 1);
+$tertiary-color: rgba(212, 175, 55, 1);
+$primary-button-color: rgba(25, 25, 25, 1);
+
+$text-subtitle: rgba(255, 215, 0, 1);
+$text-subtitle2: rgba(255, 220, 18, 0.91);
 $text-black: rgba(0, 0, 0, 1);
 $text-white: rgba(248, 248, 248, 1);
-$text-gray: rgba(77, 77, 77, 1);
-$text-gray-black: rgba(22, 28, 45, 1);
-$imput-bg-selected: rgba(82, 150, 255, 1);
-$input-bg-no-selected: rgba(169, 203, 255, 1);
-$primary-chat-box-color: rgb(100, 181, 246);
-$secondary-chat-box-color:  rgb(33, 150, 243);
+$text-gray: rgba(169, 169, 169, 1);
+$text-gray-black: rgba(45, 45, 45, 1);
+
+$input-bg-selected: rgba(55, 55, 55, 1);
+$input-bg-no-selected: rgba(85, 85, 85, 1);
+
+$primary-chat-box-color: rgba(45, 45, 45, 1);
+$secondary-chat-box-color: rgba(212, 175, 55, 0.9);
+
+$border-primary: 1px solid rgba(212, 175, 55, 1);
+$border-secondary: 1px solid rgba(85, 85, 85, 1);
+$border-hover: 1px solid rgba(255, 215, 0, 1);
+$shadow-light: 0 2px 10px rgba(212, 175, 55, 0.5);
+$shadow-dark: 0 2px 10px rgba(0, 0, 0, 0.8);
+$hover-overlay: rgba(255, 215, 0, 0.1);
+$background-overlay: rgba(0, 0, 0, 0.7);
+$focus-outline: 2px solid rgba(212, 175, 55, 0.7);
+$gradient-primary: linear-gradient(145deg, rgba(25, 25, 25, 1), rgba(45, 45, 45, 1));
+$gradient-secondary: linear-gradient(145deg, rgba(212, 175, 55, 1), rgba(255, 215, 0, 1));
+$divider-line: 1px solid rgba(55, 55, 55, 1);
 
 $padding-general-y: 4rem;
 $padding-general-x: 2rem;
