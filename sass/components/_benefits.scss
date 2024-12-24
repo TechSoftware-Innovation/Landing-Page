@@ -1,0 +1,83 @@
+.our-benefits{
+  scroll-margin-top: $scroll-margin-top-navbar;
+  background-color: $primary-color;
+  &__container{
+    @include max-WIDTH();
+    padding: $padding-general-x $padding-general-y;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  &__header{
+    @extend .know-more__header;
+    @include respond-to('medium'){
+      text-align: center
+    }
+  }
+  &__title{
+    @extend .know-more__title;
+  }
+  &__subtitle{
+    @extend .know-more__subtitle;
+    color: $text-white;
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @include respond-to('medium'){
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+  }
+  &__card{
+    width: 100%;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include respond-to('small'){
+      width: fit-content;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas:
+              'image title'
+              'image description';
+      gap: 0;
+    }
+    @include respond-to('medium'){
+      display: flex;
+    }
+    text-align: center;
+    gap: 1.2rem;
+    background-color: $secondary-color;
+    border-radius: 1rem;
+  }
+  &__card-img{
+    width: 50%;
+    max-width: 12rem;
+    grid-area: image;
+    justify-self: center;
+  }
+  &__card-title{
+    @include m-h-5();
+    color: $text-black;
+    grid-area: title;
+    justify-self: start;
+  }
+  &__card-info{
+    @include m-body-2();
+    color: $text-gray;
+    grid-area: description;
+    justify-self: start;
+    @include respond-to('small'){
+      text-align: start;
+    }
+    @include respond-to('medium'){
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.legal{
+  @extend .useful-links;
+  &__title{
+    @include m-h-4();
+  }
+  &__links{
+    @extend .useful-links;
+  }
+  &__link{
+    @extend .contact__item;
+    }
+}

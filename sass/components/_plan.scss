@@ -1,0 +1,84 @@
+.plan {
+  &__container{
+    @include max-WIDTH();
+    scroll-margin-top: $scroll-margin-top-navbar;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  &__title {
+    @extend .know-more__title;
+    text-align: center;
+  }
+  &__content{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-between;
+  }
+  .plan-card  {
+    width: 100%;
+    max-width: 26rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2rem 2.4rem;
+    background-color: $tertiary-color;
+    &--bg-dark{
+      background-color: $primary-color;
+    }
+    &__header {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      color: $text-white;
+      h5{
+        @include m-h-5();
+      }
+      h4{
+        @include m-h-3();
+      }
+      p{
+        @include m-h-6();
+      }
+    }
+    &__body {
+      h3 {
+        font-weight: bold;
+        font-size: 3rem;
+        color: $text-white;
+      }
+    }
+    &__line {
+      width: 100%;
+      height: 0.1rem;
+      background-color: $text-white;
+    }
+    &__footer {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    &__feature{
+      display: flex;
+      text-align: start;
+      gap: 1.6rem;
+      color: $text-white;
+      p{
+        @include m-h-5();
+      }
+    }
+    &__button {
+      @extend .buttonAction;
+      background-color: $secondary-color;
+      color: $text-gray-black;
+      margin-top: auto;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "testimonials": [
+    {
+      "comment": "TechSoftware Innovations nos ha ayudado a optimizar nuestros procesos internos. Ahora tenemos un software personalizado que automatiza tareas repetitivas y mejora la eficiencia del equipo.",
+      "role": "Gerente de operaciones"
+    },
+    {
+      "comment": "Desde que implementamos las soluciones de TechSoftware Innovations, nuestro flujo de trabajo ha mejorado notablemente. La automatización de procesos ha reducido errores y aumentado la productividad.",
+      "role": "Director de proyectos"
+    },
+    {
+      "comment": "Gracias a su experiencia en ciberseguridad, TechSoftware Innovations ha protegido nuestra infraestructura digital de forma efectiva. Nos sentimos seguros y tranquilos ante cualquier amenaza.",
+      "role": "Responsable de TI"
+    },
+    {
+      "comment": "Con la plataforma no-code que desarrollaron, pudimos crear herramientas internas sin necesidad de programación avanzada. Es fácil de usar y muy intuitiva.",
+      "role": "Analista de datos"
+    },
+    {
+      "comment": "TechSoftware Innovations ha transformado la forma en que gestionamos la relación con nuestros clientes. El CRM personalizado que diseñaron ha mejorado la experiencia del usuario y aumentado las ventas.",
+      "role": "Jefe de ventas"
+    },
+    {
+      "comment": "La implementación de IoT en nuestra cadena de producción, liderada por TechSoftware Innovations, ha reducido tiempos de inactividad y mejorado la precisión de nuestros procesos.",
+      "role": "Ingeniero de producción"
+    },
+    {
+      "comment": "Ahora podemos monitorear y controlar nuestras operaciones en tiempo real gracias a la integración de soluciones digitales personalizadas. TechSoftware Innovations ha sido clave en nuestra transformación digital.",
+      "role": "CEO"
+    },
+    {
+      "comment": "El desarrollo de nuestra aplicación móvil por parte de TechSoftware Innovations ha sido un éxito. Ha mejorado nuestra visibilidad y facilitado el acceso de los clientes a nuestros servicios.",
+      "role": "Coordinador de marketing"
+    },
+    {
+      "comment": "TechSoftware Innovations ha sido un socio estratégico en nuestro crecimiento. Su capacidad de desarrollar software a medida nos ha permitido escalar rápidamente.",
+      "role": "Fundador de startup"
+    },
+    {
+      "comment": "Sus herramientas de automatización nos han ahorrado horas de trabajo cada semana. La implementación fue rápida y el soporte técnico es excelente.",
+      "role": "Líder de equipo"
+    },
+    {
+      "comment": "El sistema ERP que desarrollaron para nosotros ha centralizado y simplificado la gestión de recursos, lo que ha llevado a una notable reducción de costos.",
+      "role": "CFO"
+    },
+    {
+      "comment": "TechSoftware Innovations ha sido crucial para la transformación digital de nuestra empresa. Su equipo entiende nuestras necesidades y ofrece soluciones innovadoras.",
+      "role": "Director General"
+    },
+    {
+      "comment": "Las soluciones de automatización que nos proporcionaron han permitido que nuestro equipo se enfoque en tareas más estratégicas, aumentando la eficiencia global.",
+      "role": "Jefe de innovación"
+    },
+    {
+      "comment": "El soporte post-venta y la formación continua de TechSoftware Innovations han sido excepcionales. Nos sentimos acompañados en cada paso de nuestra evolución tecnológica.",
+      "role": "Gerente de capacitación"
+    },
+    {
+      "comment": "Su plataforma de gestión de proyectos ha mejorado la colaboración entre departamentos, optimizando tiempos y reduciendo costos.",
+      "role": "Jefe de desarrollo"
+    },
+    {
+      "comment": "TechSoftware Innovations no solo ofrece soluciones tecnológicas, sino que también brinda una visión estratégica para la adopción de nuevas herramientas digitales.",
+      "role": "Consultor de transformación digital"
+    },
+    {
+      "comment": "El equipo de TechSoftware Innovations es altamente profesional. Han comprendido nuestras necesidades y entregado un producto final que superó nuestras expectativas.",
+      "role": "Gerente de producto"
+    },
+    {
+      "comment": "Gracias a su solución de análisis de datos, hemos podido tomar decisiones basadas en información en tiempo real, lo que ha mejorado significativamente nuestros resultados.",
+      "role": "Director de análisis"
+    },
+    {
+      "comment": "La automatización de procesos administrativos nos ha permitido crecer más rápido sin necesidad de aumentar la plantilla. TechSoftware Innovations ha sido un gran aliado.",
+      "role": "Gerente de recursos humanos"
+    }
+  ]
+}

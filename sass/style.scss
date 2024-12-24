@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  './utils/variables',
+  './utils/mixins',
+  './utils/breakpoints';
+
+// 2. Vendors
+@import
+  "./vendors/normalize";
+
+// 3. Base stuff
+@import
+  './base/base';
+
+// 4. Layout-related sections
+@import
+  './layout/header',
+  './layout/main',
+  './layout/footer';
+
+// 5. Components
+@import
+  './components/button-action',
+  './components/navbar',
+  './components/banner',
+  './components/know-more',
+  './components/benefits',
+  './components/testimonials',
+  './components/about-us',
+  './components/plan',
+  './components/contact-form',
+  './components/sign-up',
+  './components/useful-links',
+  './components/contact',
+  './components/legal';
