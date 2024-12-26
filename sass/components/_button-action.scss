@@ -1,5 +1,4 @@
 .buttonAction {
-  @include m-button-1();
   width: 100%;
   padding: 1.5rem 4rem;
   color: $text-white;
@@ -17,6 +16,7 @@
           background-color 300ms ease,
           border-color 300ms ease;
   animation: pulse 1.5s infinite;
+  @include m-button-1();
 
   &:hover {
     transform: translateY(-5px) scale(1.05);
