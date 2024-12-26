@@ -43,7 +43,10 @@
   "contactFormEmailLabel": "Email",
   "contactFormPhoneLabel": "Phone",
   "contactFormMessageLabel": "Message",
-  "contactFormSubmitButton": "Send",
+  "contactFormSubmitButton": "CONTACT US",
+    "submitContactMessage": "Sending message...",
+    "submitSuccessMessage": "Thank you for your message! We'll be in touch soon.",
+    "submitErrorMessage": "Oops! Something went wrong. Please try again.",
 
   "socialMediaTitle": "Social Media",
   "usefulLinksTitle": "Useful Links",
