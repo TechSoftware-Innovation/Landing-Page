@@ -152,22 +152,22 @@
             </div>
             <h3 class="contact-form__subtitle"></h3>
           </div>
-          <form id="consultant-form" class="contact-form__form" action="">
+          <form class="contact-form__form" method="post" id="contact-form">
             <label class="contact-form__label" for="name">
               <span></span>
-              <input class="contact-form__input" id="name" name="name" type="text" required>
+              <input class="contact-form__input" id="name" type="text" required name="name">
             </label>
             <label class="contact-form__label" for="email">
               <span></span>
-              <input class="contact-form__input" id="email" name="email" type="email" required>
+              <input class="contact-form__input" id="email" type="email" required name="email">
             </label>
             <label class="contact-form__label" for="phone">
               <span></span>
-              <input class="contact-form__input" id="phone" name="phone" type="number" min="900000000" max="999999999" required>
+              <input class="contact-form__input" id="phone" type="number" min="900000000" max="999999999" required name="phone">
             </label>
             <label class="contact-form__label" for="message">
               <span></span>
-              <textarea class="contact-form_input contact-form_input--large" id="message" name="message" type="text"></textarea>
+              <textarea class="contact-form_input contact-form_input--large" id="message" type="text" name="message"></textarea>
             </label>
             <input id="submit-btn" class="contact-form__button" type="submit" value="CONTÁCTANOS">
         </form>

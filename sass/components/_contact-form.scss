@@ -1,5 +1,6 @@
 .contact-form {
   background-color: $secondary-color;
+  padding-bottom: 3rem;
   &__container{
     @include max-WIDTH();
     scroll-margin-top: $scroll-margin-top-navbar;

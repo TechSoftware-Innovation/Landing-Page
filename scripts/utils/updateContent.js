@@ -98,7 +98,7 @@ export function updateContent() {
     contactFormEmailLabel.innerHTML = i18next.t("contactFormEmailLabel");
     contactFormPhoneLabel.innerHTML = i18next.t("contactFormPhoneLabel");
     contactFormMessageLabel.innerHTML = i18next.t("contactFormMessageLabel");
-    contactFormSubmitButton.innerHTML = i18next.t("contactFormSubmitButton");
+    contactFormSubmitButton.value = i18next.t("contactFormSubmitButton");
     socialMediaTitle.innerHTML = i18next.t("socialMediaTitle");
     usefulLinksTitles.innerHTML = i18next.t("usefulLinksTitle");
     usefulLinks1.innerHTML = i18next.t("usefulLinksHome");

@@ -43,7 +43,10 @@
   "contactFormEmailLabel": "Correo",
   "contactFormPhoneLabel": "Teléfono",
   "contactFormMessageLabel": "Mensaje",
-  "contactFormSubmitButton": "Enviar",
+  "contactFormSubmitButton": "CONTÁCTANOS",
+    "submitContactMessage": "Enviando mensaje...",
+    "submitSuccessMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.",
+    "submitErrorMessage": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo.",
 
   "socialMediaTitle": "Redes sociales",
   "usefulLinksTitle": "Enlaces útiles",
