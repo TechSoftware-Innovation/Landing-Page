@@ -2,6 +2,7 @@ import '../sass/style.scss'
 import {
     onButtonMobileClick,
     onLanguageSelectChange,
+    onSubmitForm,
     onWindowLoad,
     onWindowResize,
     onWindowScroll
@@ -18,7 +19,7 @@ i18next.init({
         en: { translation: en },
         es: { translation: es }
     }
-}, function(err, t) {
+}, function() {
     updateContent();
 }).then(() => updateContent());
 
@@ -32,5 +33,4 @@ onWindowScroll();
 
 onLanguageSelectChange();
 
-onFormSend();
-
+onSubmitForm();

@@ -67,6 +67,8 @@ export const privacyPolicyText = document.querySelector('.legal__link:nth-child(
 export const termsConditionsText = document.querySelector('.legal__link:nth-child(2) > p');
 export const copyrightText = document.querySelector('.footer__copyright');
 
+export const formContact = document.querySelector('#contact-form');
+
 let interval = null;
 
 export let stepCarrousel = 1;
