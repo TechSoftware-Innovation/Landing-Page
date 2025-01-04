@@ -1,13 +1,18 @@
 .legal{
-  @extend .useful-links;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
   &__title{
     @include m-h-4();
     color: $text-subtitle2;
   }
   &__links{
-    @extend .useful-links;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
   }
   &__link{
     @extend .contact__item;
-    }
+  }
 }
