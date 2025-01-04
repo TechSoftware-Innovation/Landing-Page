@@ -49,13 +49,6 @@ export const contactFormPhoneLabel = document.querySelector('.contact-form__labe
 export const contactFormMessageLabel = document.querySelector('.contact-form__label[for="message"] span');
 export const contactFormSubmitButton = document.querySelector('.contact-form__button');
 export const socialMediaTitle = document.querySelector('.social-media__title');
-export const usefulLinksTitles = document.querySelector('.useful-links__title')
-export const usefulLinks1 = document.querySelector('.useful-links__item:nth-of-type(1) a');
-export const usefulLinks2 = document.querySelector('.useful-links__item:nth-of-type(2) a');
-export const usefulLinks3 = document.querySelector('.useful-links__item:nth-of-type(3) a');
-export const usefulLinks4 = document.querySelector('.useful-links__item:nth-of-type(4) a');
-export const usefulLinks5 = document.querySelector('.useful-links__item:nth-of-type(5) a');
-export const usefulLinks6 = document.querySelector('.useful-links__item:nth-of-type(6) a');
 
 export const contactTitle = document.querySelector('.contact__title');
 export const contactPhone = document.querySelector('.contact__item:nth-child(1) p');
