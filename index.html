@@ -11,9 +11,12 @@
   </head>
   <body>
     <header class="header"  id="home">
-      <video class="header__video" autoplay muted loop>
-        <source src="/assets/video/banner.mp4" type="video/mp4">
-      </video>
+      <div class="header__video">
+        <img class="video__placeholder" src="/assets/img/banner-preloaded.png" alt="banner placeholder">
+        <video class="video__content" autoplay muted loop>
+          <source src="/assets/video/banner.mp4" type="video/mp4">
+        </video>
+      </div>
       <nav class="navbar">
         <a class="navbar__logo" href="#home">
           <img src="/assets/img/logo.jpg" alt="Logo de TechSoftware Innovations">

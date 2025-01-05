@@ -1,6 +1,6 @@
 import '../sass/style.scss'
 import {
-    onButtonMobileClick,
+    onButtonMobileClick, onDomContentLoad,
     onLanguageSelectChange,
     onSubmitForm,
     onWindowLoad,
@@ -34,3 +34,5 @@ onWindowScroll();
 onLanguageSelectChange();
 
 onSubmitForm();
+
+onDomContentLoad();
