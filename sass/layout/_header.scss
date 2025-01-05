@@ -34,3 +34,24 @@
 .header > *:not(.header__video) {
   z-index: 4;
 }
+.video__placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+.video__content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+}
+.header__video.loaded .video__placeholder {
+  opacity: 0;
+  pointer-events: none;
+}
