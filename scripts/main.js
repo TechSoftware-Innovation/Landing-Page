@@ -1,6 +1,6 @@
 import '../sass/style.scss'
 import {
-    onButtonMobileClick,
+    onButtonMobileClick, onDomContentLoad,
     onLanguageSelectChange,
     onSubmitForm,
     onWindowLoad,
@@ -8,7 +8,6 @@ import {
     onWindowScroll
 } from "./modules/eventHandlers.js";
 import {updateContent} from "./utils/updateContent.js";
-import {onFormSend} from "./utils/consultantForm.js";
 import i18next from "i18next";
 import en from '../i18n/en.json';
 import es from '../i18n/es.json';
@@ -34,3 +33,5 @@ onWindowScroll();
 onLanguageSelectChange();
 
 onSubmitForm();
+
+onDomContentLoad();

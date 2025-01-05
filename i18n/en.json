@@ -1,12 +1,12 @@
 {
   "home-title": "Empower your business with technological innovation and security",
-  "hero-button": "Get Started",
-  "navbar-item-know-more": "Explore More",
+  "hero-button": "GET STARTED",
+  "navbar-item-know-more": "Explore",
   "navbar-item-benefits": "Benefits",
   "navbar-item-testimonials": "Clients",
   "navbar-item-about-us": "About Us",
 
-  "know-more-section-title": "Transform Your Business",
+  "know-more-section-title": "TRANSFORM YOUR BUSINESS",
   "know-more-section-subtitle": "Manage, automate, and grow with our solutions",
   "know-more-section-description": "TechSoftware Innovations revolutionizes the way you manage your business. Simplify processes, connect with your clients, and take your operations to the next level.",
   "know-more-section-button": "LET'S TALK",
@@ -49,13 +49,6 @@
     "submitErrorMessage": "Oops! Something went wrong. Please try again.",
 
   "socialMediaTitle": "Social Media",
-  "usefulLinksTitle": "Useful Links",
-    "usefulLinksHome": "Home",
-    "usefulLinksKnowMore": "Explore More",
-    "usefulLinksBenefits": "Benefits",
-    "usefulLinksTestimonials": "Clients",
-    "usefulLinksAboutUs": "About Us",
-    "usefulLinksContact": "Contact Us",
 
   "contactTitle": "Contact",
   "contactPhone": "+51 900 378 571",

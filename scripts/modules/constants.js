@@ -4,6 +4,9 @@ export const buttonMobile = document.querySelector('#display-button');
 export const menuOptions = document.querySelector('.navbar__complete-list');
 export const navbar = document.querySelector('.navbar');
 export const header = document.querySelector('.header');
+export const headerVideo = document.querySelector('.header__video');
+export const headerImagePlaceholder = document.querySelector('.video__placeholder');
+export const headerVideoSource = document.querySelector('.video__content');
 export const testimonialsContent = document.querySelector('div.testimonials__content');
 export const languageSelect = document.querySelector('#language-select');
 
@@ -49,13 +52,6 @@ export const contactFormPhoneLabel = document.querySelector('.contact-form__labe
 export const contactFormMessageLabel = document.querySelector('.contact-form__label[for="message"] span');
 export const contactFormSubmitButton = document.querySelector('.contact-form__button');
 export const socialMediaTitle = document.querySelector('.social-media__title');
-export const usefulLinksTitles = document.querySelector('.useful-links__title')
-export const usefulLinks1 = document.querySelector('.useful-links__item:nth-of-type(1) a');
-export const usefulLinks2 = document.querySelector('.useful-links__item:nth-of-type(2) a');
-export const usefulLinks3 = document.querySelector('.useful-links__item:nth-of-type(3) a');
-export const usefulLinks4 = document.querySelector('.useful-links__item:nth-of-type(4) a');
-export const usefulLinks5 = document.querySelector('.useful-links__item:nth-of-type(5) a');
-export const usefulLinks6 = document.querySelector('.useful-links__item:nth-of-type(6) a');
 
 export const contactTitle = document.querySelector('.contact__title');
 export const contactPhone = document.querySelector('.contact__item:nth-child(1) p');

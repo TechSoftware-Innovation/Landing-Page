@@ -47,14 +47,7 @@ import {
     socialMediaTitle,
     termsConditionsText,
     testimonialSubtitle,
-    testimonialTitle,
-    usefulLinks1,
-    usefulLinks2,
-    usefulLinks3,
-    usefulLinks4,
-    usefulLinks5,
-    usefulLinks6,
-    usefulLinksTitles
+    testimonialTitle
 } from "../modules/constants.js";
 import i18next from "i18next";
 
@@ -100,13 +93,6 @@ export function updateContent() {
     contactFormMessageLabel.innerHTML = i18next.t("contactFormMessageLabel");
     contactFormSubmitButton.value = i18next.t("contactFormSubmitButton");
     socialMediaTitle.innerHTML = i18next.t("socialMediaTitle");
-    usefulLinksTitles.innerHTML = i18next.t("usefulLinksTitle");
-    usefulLinks1.innerHTML = i18next.t("usefulLinksHome");
-    usefulLinks2.innerHTML = i18next.t("usefulLinksKnowMore");
-    usefulLinks3.innerHTML = i18next.t("usefulLinksBenefits");
-    usefulLinks4.innerHTML = i18next.t("usefulLinksTestimonials");
-    usefulLinks5.innerHTML = i18next.t("usefulLinksAboutUs");
-    usefulLinks6.innerHTML = i18next.t("usefulLinksContact");
 
     contactTitle.innerHTML = i18next.t("contactTitle");
     contactPhone.innerHTML = i18next.t("contactPhone");

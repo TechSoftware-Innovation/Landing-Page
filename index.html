@@ -11,9 +11,12 @@
   </head>
   <body>
     <header class="header"  id="home">
-      <video class="header__video" autoplay muted loop>
-        <source src="/assets/video/banner.mp4" type="video/mp4">
-      </video>
+      <div class="header__video">
+        <img class="video__placeholder" src="/assets/img/banner-preloaded.png" alt="banner placeholder">
+        <video class="video__content" autoplay muted loop>
+          <source src="/assets/video/banner.mp4" type="video/mp4">
+        </video>
+      </div>
       <nav class="navbar">
         <a class="navbar__logo" href="#home">
           <img src="/assets/img/logo.jpg" alt="Logo de TechSoftware Innovations">
@@ -165,7 +168,7 @@
             </label>
             <label class="contact-form__label" for="message">
               <span></span>
-              <textarea class="contact-form_input contact-form_input--large" id="message" type="text" name="message"></textarea>
+              <textarea class="contact-form__textarea" id="message" type="text" name="message"></textarea>
             </label>
             <input id="submit-btn" class="contact-form__button" type="submit" value="CONTÁCTANOS">
         </form>
@@ -188,17 +191,6 @@
               <img src="/assets/icon/instagram.svg" alt="logo of instagram">
             </a>
           </div>
-        </div>
-        <div  class="useful-links">
-          <h3 class="useful-links__title"></h3>
-          <ul class="useful-links__list">
-            <li class="useful-links__item"><a href="#home"></a></li>
-            <li class="useful-links__item"><a href="#know-more"></a></li>
-            <li class="useful-links__item"><a href="#benefits"></a></li>
-            <li class="useful-links__item"><a href="#testimonials"></a></li>
-            <li class="useful-links__item"><a href="#about-us"></a></li>
-            <li class="useful-links__item"><a href="#contact-us"></a></li>
-          </ul>
         </div>
         <div class="contact">
           <h3 class="contact__title"></h3>
