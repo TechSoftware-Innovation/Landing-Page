@@ -4,6 +4,9 @@ export const buttonMobile = document.querySelector('#display-button');
 export const menuOptions = document.querySelector('.navbar__complete-list');
 export const navbar = document.querySelector('.navbar');
 export const header = document.querySelector('.header');
+export const headerVideo = document.querySelector('.header__video');
+export const headerImagePlaceholder = document.querySelector('.video__placeholder');
+export const headerVideoSource = document.querySelector('.video__content');
 export const testimonialsContent = document.querySelector('div.testimonials__content');
 export const languageSelect = document.querySelector('#language-select');
 
