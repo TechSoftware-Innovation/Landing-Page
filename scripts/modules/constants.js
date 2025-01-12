@@ -55,8 +55,9 @@ export const socialMediaTitle = document.querySelector('.social-media__title');
 
 export const contactTitle = document.querySelector('.contact__title');
 export const contactPhone = document.querySelector('.contact__item:nth-child(1) p');
-export const contactEmail = document.querySelector('.contact__item:nth-child(3) p');
+export const contactEmail = document.querySelector('.contact__item:nth-child(4) p');
 export const contactAddress = document.querySelector('.contact__item:nth-child(2) p');
+export const contactAddressTwo = document.querySelector('.contact__item:nth-child(3) p');
 
 export const legalTitle = document.querySelector('.legal__title');
 export const privacyPolicyText = document.querySelector('.legal__link:nth-child(1) > p');
