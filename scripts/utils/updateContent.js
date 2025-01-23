@@ -22,7 +22,7 @@ import {
     benefit4Title,
     benefitSubtitle,
     benefitTitle,
-    contactAddress,
+    contactAddress, contactAddressTwo,
     contactEmail,
     contactFormEmailLabel,
     contactFormMessageLabel,
@@ -98,6 +98,7 @@ export function updateContent() {
     contactPhone.innerHTML = i18next.t("contactPhone");
     contactEmail.innerHTML = i18next.t("contactEmail");
     contactAddress.innerHTML = i18next.t("contactAddress");
+    contactAddressTwo.innerHTML = i18next.t("contactAddressTwo");
     legalTitle.innerHTML = i18next.t("legalTitle");
     privacyPolicyText.innerHTML = i18next.t("privacyPolicyText");
     termsConditionsText.innerHTML = i18next.t("termsConditionsText");
